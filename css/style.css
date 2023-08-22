@@ -1,9 +1,18 @@
+.gridContainer{
+    display: flex;
+}
+
 .gridRow{
     display:flex;
+
 
 }
 
 .gridColumn{
     /*display:flex;*/
 
+}
+
+.gridColumnHover{
+    color:red;
 }
