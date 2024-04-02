@@ -10,9 +10,9 @@
 
 .gridColumn{
     /*display:flex;*/
-
+    
 }
 
 .gridColumnHover{
-    color:red;
+    background-color: red;
 }

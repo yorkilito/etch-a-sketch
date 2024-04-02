@@ -4,12 +4,9 @@ let gridDimension = 16;
 
 dimensionButton.addEventListener('click',function(){
     let dimension = parseInt(prompt("Please enter a number for the grid dimension (max 100)","16"));
-    //console.log(dimension);
     if (dimension < 100){
         gridDimension = dimension;
-        console.log(gridDimension);
         renderSketchPad();
-        //return gridDimension;
 
     }else{
         
@@ -60,7 +57,7 @@ function renderSketchPad(){
         for (let columnCounter = 0; columnCounter < gridDimension; columnCounter ++){
             const gridColumn = document.createElement('div');
             gridColumn.classList.add('gridColumn');
-            gridColumn.textContent = "column for grid";
+            gridColumn.textContent = "column";
             gridRow.appendChild(gridColumn);
             //gridColumn.addEventListener('mouseover',toggleGridColor);
             
